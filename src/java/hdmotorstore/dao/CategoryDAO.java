@@ -243,13 +243,6 @@ public class CategoryDAO extends DBContext {
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i).getName());
         }
-//        
-//        if(dao.insertCategory("ao da")) {
-//            System.out.println("OK");
-//        }else {
-//            System.out.println("FAIL");
-//        }
-//    List<CategoryDTO> list = dao.getCategoriesByTypeId(1);
         for (CategoryDTO categoryDTO : list) {
             System.out.println(categoryDTO.getName());
         }
